@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-07-13T02:00:00Z",
+  "title": "Design System: Portfólio Rieth Matias",
+  "extensions": {
+    "colorMeta": {
+      "primary": { "role": "primary", "displayName": "Sand Gold", "canonical": "#D4B98E", "tonalRamp": ["#F8F3E9", "#F1E7D3", "#EADBBC", "#E3D0A6", "#DBD48F", "#C4A575", "#AD8C5B", "#967341"] },
+      "neutral-bg": { "role": "neutral", "displayName": "Deep Obsidian", "canonical": "#262423", "tonalRamp": ["#5A5857", "#4D4B4A", "#403E3D", "#333130", "#262423", "#191716", "#0C0A09", "#000000"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero headlines only." },
+      "headline": { "displayName": "Headline", "purpose": "Subtítulos fortes." },
+      "body": { "displayName": "Body", "purpose": "Textos descritivos em tamanho normal." }
+    },
+    "shadows": [],
+    "motion": [
+      { "name": "ease-standard", "value": "cubic-bezier(0.4, 0, 0.2, 1)", "purpose": "Deslizamento de carrossel coreografado." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Nav Marquee",
+      "kind": "nav",
+      "refersTo": "marquee",
+      "description": "Navegação superior ou inferior estilo editorial.",
+      "html": "<nav class=\"ds-nav-marquee\"><span>SOCIAL MEDIA DESIGN</span><span class=\"dot\">•</span><span>PITCH DECK DESIGN</span><span class=\"dot\">•</span><span>BRANDING DESIGN</span></nav>",
+      "css": ".ds-nav-marquee { display: flex; gap: 16px; align-items: center; font-family: 'Inter', sans-serif; font-size: 0.875rem; letter-spacing: 0.05em; color: #EFEFEF; text-transform: uppercase; font-weight: 500; } .ds-nav-marquee .dot { color: #4A453F; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "A Escuridão Dourada (The Golden Dark)",
+    "overview": "Um portfólio luxuoso, minimalista e de altíssimo impacto. O design é dominado por um fundo escuro com nuances quentes, tipografia geométrica massiva e ousada em tons de areia/dourado que transmitem confiança especialista. O layout é elegante, frequentemente isolado do navegador por uma moldura com bordas sutis e arredondadas. O movimento é coreografado e imersivo, focado no deslizamento horizontal (carrossel) contínuo.",
+    "keyCharacteristics": [
+      "Tipografia brutalmente imponente e caixa alta.",
+      "Contraste dramático (Dark Mode absoluto + Ouro Areia).",
+      "Emolduramento (Bordas arredondadas delicadas encapsulando a tela).",
+      "Movimento horizontal coreografado e fluido."
+    ],
+    "rules": [
+      { "name": "The Focal Point Rule", "body": "O tom dourado só deve ser usado em tipografia massiva ou chamadas cruciais.", "section": "colors" },
+      { "name": "The Block Text Rule", "body": "O letter-spacing da tipografia Display deve ser no mínimo -0.04em para formar blocos quase sólidos.", "section": "typography" },
+      { "name": "The Flat Surface Rule", "body": "Interfaces e cards descansam sem sombras pesadas.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do usar tipografia Display gigantesca e impactante, em caixa alta, usando o tom Sand Gold (#D4B98E).",
+      "Do manter a interface encapsulada em uma borda sutil com cantos suavemente arredondados.",
+      "Do animar os projetos horizontais suaves, da direita para a esquerda."
+    ],
+    "donts": [
+      "Don't usar backgrounds de tela no modo claro (light mode) sob nenhuma hipótese.",
+      "Don't utilizar glassmorphism ou gradientes pesados na tipografia.",
+      "Don't usar bordas exageradamente arredondadas (maiores que 24px) em contêineres."
+    ]
+  }
+}
