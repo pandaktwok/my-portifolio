@@ -1,5 +1,5 @@
 ---
-name: Portfólio Rieth Matias
+name: Portfólio Renan Sombrio Zock
 description: Uma vitrine interativa e de alto impacto que prova minha capacidade técnica.
 colors:
   primary: "#D4B98E"
@@ -38,7 +38,7 @@ components:
     padding: "{spacing.sm}"
 ---
 
-# Design System: Portfólio Rieth Matias
+# Design System: Portfólio Renan Sombrio Zock
 
 ## 1. Overview
 
