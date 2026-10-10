@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/rena0624/renansombrio.com.br/
+    - /bin/cp -f index.html style.css script.js renan.webp camada2_no_bg.webp $DEPLOYPATH
